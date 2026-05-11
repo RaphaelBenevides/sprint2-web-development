@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>JOVI-Web Dev</title>
+  <title>JOVI SHOP</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -19,6 +19,7 @@
 
   <main>
 
+    <!-- LOGIN -->
     <section class="card">
 
       <h2>Login</h2>
@@ -30,6 +31,7 @@
 
       <hr>
 
+      <!-- CRIAR CONTA -->
       <h2>Criar Conta</h2>
 
       <input type="text" id="novoNome" placeholder="Digite seu nome">
@@ -42,15 +44,44 @@
 
     </section>
 
+
+    <!-- SLIDESHOW -->
     <section class="card">
-      <h2>Galeria</h2>
 
-      <img id="slide" src="images/img1.jpg" alt="Imagem do slideshow">
+      <h2>Slideshow</h2>
 
-      <div class="botoes-slide">
-        <button id="anterior">Anterior</button>
-        <button id="proximo">Próximo</button>
-      </div>
+      <img id="slide" src="./images/img1.png" alt="Imagem">
+
+      <br><br>
+
+      <button id="trocarImagem">Trocar Imagem</button>
+
+    </section>
+
+
+    <!-- EVENTOS DOM -->
+    <section class="card">
+
+      <h2>Eventos DOM</h2>
+
+      <button id="botaoCor">Passar Mouse</button>
+
+      <p id="texto">Texto original</p>
+
+    </section>
+
+
+    <!-- STRINGS -->
+    <section class="card">
+
+      <h2>Manipulação de Strings</h2>
+
+      <input type="text" id="nome" placeholder="Digite seu nome">
+
+      <button id="mostrarNome">Mostrar Nome</button>
+
+      <p id="resultadoNome"></p>
+
     </section>
 
   </main>
